@@ -78,3 +78,7 @@ ctrl.r = 0
 end 
 end)
 Fly()
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "E";
+    Text  = "Calistirmak icin E ye bas";
+    })
