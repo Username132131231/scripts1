@@ -14,4 +14,7 @@ game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
 end
 end)
 print('Loaded')
-print('Press "E" to noclip')
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "E";
+    Text  = "Calistirmak icin E ye bas";
+    })
